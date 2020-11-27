@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.jpa.entity;
+package io.github.astrapi69.chat.messages.jpa.entity;
 
 import java.util.UUID;
 
@@ -18,16 +18,16 @@ import lombok.experimental.FieldDefaults;
 import lombok.experimental.SuperBuilder;
 
 @Entity
-@Table(name = Templates.TABLE_NAME)
+@Table(name = ChatMessages.TABLE_NAME)
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Templates
+public class ChatMessages
 {
-	static final String SINGULAR_ENTITY_NAME = "template";
+	static final String SINGULAR_ENTITY_NAME = "chat_message";
 	static final String TABLE_NAME = SINGULAR_ENTITY_NAME + "s";
 	@Id
 	@GeneratedValue(generator = "UUID")

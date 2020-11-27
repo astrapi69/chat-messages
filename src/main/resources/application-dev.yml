@@ -3,10 +3,13 @@ spring:
   application:
     admin:
       enabled: false
-      jmx-name: org.springframework.boot:type=Admin,name=SpringTemplateApplication
+      jmx-name: org.springframework.boot:type=Admin,name=ChatMessagesApplication
+
+server:
+  port: 5050
 
 app:
-  db-name: template
+  db-name: chatbars
   db-host: localhost
   db-port: 5432
   db-username: postgres

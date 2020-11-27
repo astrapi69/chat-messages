@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.config;
+package io.github.astrapi69.chat.messages.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

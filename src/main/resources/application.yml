@@ -17,13 +17,13 @@ server:
 
 app:
   name: ${name}
-  base-package: io.github.astrapi69.template
-  api-info-title: template REST API
-  api-info-description: REST API template description
-  contact-name: template inc.
-  contact-url: www.template.org
+  base-package: io.github.astrapi69.chat.messages
+  api-info-title: chat-bars REST API
+  api-info-description: REST API chat-bars description
+  contact-name: chat-bars inc.
+  contact-url: www.chat-bars.org
   dir: ${user.home}/.${app.name}
-  db-name: template
+  db-name: chatbars
   db-host: localhost
   db-port: 5432
   db-username: postgres

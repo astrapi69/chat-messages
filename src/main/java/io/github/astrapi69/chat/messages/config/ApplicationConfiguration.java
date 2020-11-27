@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.config;
+package io.github.astrapi69.chat.messages.config;
 
 import java.util.List;
 
@@ -30,10 +30,10 @@ import lombok.NonNull;
 import lombok.experimental.FieldDefaults;
 
 @Configuration
-@ComponentScan(basePackages = { "io.github.astrapi69.template",
-	"io.github.astrapi69.template.service", "io.github.astrapi69.template.jpa.entity" })
-@EntityScan(basePackages = { "io.github.astrapi69.template.jpa.entity" })
-@EnableJpaRepositories(basePackages = { "io.github.astrapi69.template.jpa.repository" })
+@ComponentScan(basePackages = { "io.github.astrapi69.chat.messages",
+	"io.github.astrapi69.chat.messages.service", "io.github.astrapi69.chat.messages.jpa.entity" })
+@EntityScan(basePackages = { "io.github.astrapi69.chat.messages.jpa.entity" })
+@EnableJpaRepositories(basePackages = { "io.github.astrapi69.chat.messages.jpa.repository" })
 @EnableTransactionManagement
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)

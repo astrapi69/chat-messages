@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.exceptionhandling;
+package io.github.astrapi69.chat.messages.exceptionhandling;
 
 import lombok.AccessLevel;
 import lombok.Getter;

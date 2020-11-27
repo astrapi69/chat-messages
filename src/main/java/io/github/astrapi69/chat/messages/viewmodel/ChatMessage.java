@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.viewmodel;
+package io.github.astrapi69.chat.messages.viewmodel;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -16,7 +16,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @SuperBuilder
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Template
+public class ChatMessage
 {
 	UUID id;
 	String name;
